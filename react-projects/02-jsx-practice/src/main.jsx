@@ -1,12 +1,8 @@
-// 4. 导入 React 18 的 StrictMode 和 react-dom
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-
-// 5. 导入根组件和全局样式
 import './index.css'
 import App from './App.jsx'
 
-// 6. 找到挂载点并渲染应用
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
